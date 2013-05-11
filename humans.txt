@@ -1,0 +1,20 @@
+/* TEAM */
+  HMFIC: Jan Szpila
+  Contact: jszpila [at] gmail.com
+  Twitter: @janszpila
+  From: Chicago, IL, USA
+
+/* THANKS */
+  +5 Design Consultant: Bruce Lee
+  Contact: http://wayofthedev.com
+
+  Debut Light texture: Luke McDonald
+  Contact: http://lukemcdonald.com/
+
+  Noisy Net texture: Tom McArdie
+
+/* SITE */
+  Last update: 2013/5/11
+  Standards: HTML5, CSS3, CoffeeScript
+  Components: jQuery, Twitter Bootstrap, LESS
+  Software: Sublime Text, CodeKit

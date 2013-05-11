@@ -1,0 +1,132 @@
+/*!
+ * Main LESS file for jszpila.github.com
+ * Author: Jan Szpila
+ */
+
+/* General */
+.navbar {
+  margin-bottom: 0;
+
+  &.navbar-fixed-top {
+    position: relative;
+  }
+}
+
+a {
+  text-decoration: none;
+  transition: color .25s;
+  -moz-transition: color .25s;
+  -webkit-transition: color .25s;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.masthead {
+  color: #EFEFEF;
+  padding: 30px 0;
+
+  img {
+    margin-top: 5px;
+    border-radius: 100px;
+  }
+}
+
+#Content {
+  margin-top: 25px;
+}
+
+section {
+  margin-bottom: 25px;
+
+  h2 {
+    display: inline-block;
+    margin-right: 15px;
+  }
+}
+
+.border-right {
+  border-right: solid 1px;
+}
+
+#Experience {
+  tbody td,
+  thead th {
+    width: 33%;
+
+    &:last-child {
+      padding-left: 20px;
+    }
+  }
+}
+
+footer {
+  padding: 15px 0;
+}
+
+// Themes
+.light {
+  background-color: #FFF;
+
+  .masthead {
+    background-color: #111;
+  }
+
+  .borderRight {
+    border-color: #DDD;
+  }
+}
+
+.dark {
+  background-color: #272928;
+  color: #FFF;
+
+  a {
+    color: #83AF56;
+
+    &:hover {
+      color: lighten(#83AF56, 10%);
+    }
+  }
+
+  .navbar .nav > li > a:hover {
+    color: #FFF;
+  }
+
+  .navbar-inner {
+    background-image: none;
+    background-color: #272928;
+    border: none;
+
+    a {
+      color: #727272;
+      text-shadow: none;
+
+      &:hover {
+        color: #FFF;
+      }
+
+      i {
+        text-shadow: none;
+
+        &:hover {
+          color: #FFF;
+        }
+      }
+    }
+  }
+
+  .masthead {
+    background-color: #FFF;
+    color: #272928;
+  }
+
+  table td {
+    border-color: #727272;
+  }
+
+  .table-striped tbody > tr:nth-child(odd) > td {
+    background-color: rgba(0, 0, 0, .1);
+  }
+}
