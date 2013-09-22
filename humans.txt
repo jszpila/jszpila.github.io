@@ -2,19 +2,18 @@
   HMFIC: Jan Szpila
   Contact: jszpila [at] gmail.com
   Twitter: @janszpila
+  Github: jszpila
   From: Chicago, IL, USA
 
 /* THANKS */
   +5 Design Consultant: Bruce Lee
-  Contact: http://wayofthedev.com
+  Contact: http://ghostsinspace.com
 
-  Debut Light texture: Luke McDonald
-  Contact: http://lukemcdonald.com/
-
-  Noisy Net texture: Tom McArdie
+  Background gradients generated using Harsh
+  https://github.com/bookcasey/harsh
 
 /* SITE */
-  Last update: 2013/5/11
-  Standards: HTML5, CSS3, CoffeeScript
-  Components: jQuery, Twitter Bootstrap, LESS
+  Last update: 2013/9/16
+  Standards: HTML5, CSS3, JavaScript
+  Components: jQuery, Twitter Bootstrap, CoffeeScript Jade, LESS
   Software: Sublime Text, CodeKit
