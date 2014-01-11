@@ -15,7 +15,7 @@ html
     link(href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.no-icons.min.css", rel="stylesheet")
     link(href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css", rel="stylesheet")
     link(rel='stylesheet', href='styles/css/site.css')
-    title Jan “Yahn” Szpila: Front-End Developer Extraordinaire
+    title Jan “Yahn” Szpila: Front-End Engineer Extraordinaire
 
   body
     nav.navbar.navbar-fixed-top
@@ -25,7 +25,7 @@ html
             span.icon-bar
             span.icon-bar
             span.icon-bar
-          a.navbar-brand(href='http://www.jszpila.me', title="Jan “Yahn” Szpila: Front-End Developer Extraordinaire") jszpila.me
+          a.navbar-brand(href='http://www.jszpila.me', title="Jan “Yahn” Szpila: Front-End Engineer Extraordinaire") jszpila.me
 
         .navbar-collapse.collapse
           ul.nav.navbar-nav.navbar-right
@@ -33,7 +33,7 @@ html
               a(href='http://bit.ly/JSzpilaResume', download='Jan Szpila Resumé', title='Download my resumé')
                 i.icon-file
             li
-              a#EmailLink(href='#', title='Email me: jszpila [at] gmail.com')
+              a.email-link(href='#', title='Email me: jszpila [at] gmail.com')
                 i.icon-envelope
             li
               a(href='https://github.com/jszpila', title='GitHub: jszpila')
@@ -52,7 +52,7 @@ html
             img.img-rounded(src='images/MonkeyHat.jpg', alt='Jan Szpila: The Man. The Myth. The Legend.')
           .col-md-10
             h1 I'm Jan “Yahn” Szpila, and I can build it. I have the technology.
-            p.lead I'm a front-end developer with a difficult to pronounce name and a passion for using open-source technologies to produce top-notch web apps that look good and work great, anywhere and everywhere.
+            p.lead I'm a front-end engineer with a difficult to pronounce name and a passion for using open-source technologies to produce top-notch web apps that look good and work great, anywhere and everywhere.
     
     #Content.container(role='main')
       section#Skills
@@ -65,12 +65,11 @@ html
           .col-md-4
               h3 Tools
               ul.list-unstyled.skills
+                li.skill CLI/iTerm
                 li.skill Git
                 li.skill Grunt
-                li.skill Karma
                 li.skill Photoshop
                 li.skill Sublime Text
-                li.skill Visual Studio
 
           .col-md-4
             h3 Technologies
@@ -82,16 +81,14 @@ html
                 i.muted (+ Jade)
               li.skill JavaScript
                 i.muted (+ CoffeeScript)
-              li.skill JSON
               li.skill Node.js
 
           .col-md-4
             h3 Frameworks & Libraries
             ul.list-unstyled.skills
-              li.skill AngularJS
+              li.skill Backbone.js
               li.skill Bootstrap
               li.skill Express
-              li.skill Handlebars
               li.skill jQuery
                 i.muted (+ UI)
               li.skill Knockout
@@ -102,162 +99,67 @@ html
 
         p Be sure to 
           a(href='http://bit.ly/JSzpilaResume', download='Jan Szpila Resumé', title='Download my resumé') download my resumé 
-          | while you're here!
+          | for more information.
 
         .row
           .col-md-12
-            #TableContainer
-              table.table.table-striped
-                thead
-                  tr
-                    th Employer
-                    th Position
-                    th Duration
-                tbody
-                  tr
-                    td 
-                      a.exp-link(href='#', rel='ICS', title='Click for more information about InContext Solutions') InContext Solutions  
-                        i.icon-info-sign
-                    td Sr. Software Engineer, Front-End
-                    td 8/13 - Current
-                  tr
-                    td 
-                      a.exp-link(href='#', rel='UniB', title='Click for more information about Uni-B Solutions') Uni-B Solutions  
-                        i.icon-info-sign
-                    td Sr. Software Engineer, Front-End
-                      i.icon-time
-                    td 2/13 - Current
-                  tr
-                    td 
-                      a.exp-link(href='#', rel='SS', title='Click for more information about SteelSeries') SteelSeries  
-                        i.icon-info-sign
-                    td Sr. Software Engineer, Front-End
-                    td 5/12 - 8/13
-                  tr
-                    td 
-                      a.exp-link(href='#', rel='ES', title='Click for more information about Emmi Solutions') Emmi Solutions  
-                        i.icon-info-sign
-                    td Lead Front-End Developer
-                    td 2/11 - 4/12
-                  tr
-                    td Chicago Tribune
-                    td Sr. Front-End Developer
-                      i.icon-time
-                    td 3/10 - 2/11
-                  tr
-                    td Sears  
-                    td Front-End Developer
-                      i.icon-time
-                    td 12/09 - 3/10
-                  tr
-                    td WMS Gaming
-                    td Assoc. Online Engineer
-                    td 9/08 - 12/09
-                  tr
-                    td(rowspan='2') Hubbard One  
-                    td Sr. Web Production Designer
-                    td 9/07 - 9/08
-                  tr
-                    td Assoc. Web Developer
-                    td 9/06 - 9/07
-                  tr
-                    td Guaranteed Rate  
-                    td Web Developer
-                    td 8/05 - 9/06
-                tfoot
-                  tr
-                    td(colspan='3')
-                      em.muted
-                        i.icon-time
-                        | indicates a contract position. Further information available upon request.
-
-            #ICS.exp-container
-              h3 InContext Solutions
-              h4 Sr. Software Engineer, Front-End
-              p AngularJS, jQuery, Kendo UI, Knockout, Modernizr, Node.js
-              ul.list-unstyled
-                li 
-                  i.icon-angle-right  
-                  | Implementing user interface improvements for the administrative features of ShopperMX, InContext's virtual environment marketing research platform.
-                li 
-                  i.icon-angle-right  
-                  | Working with architects to re-factor ShopperMX's front-end as service-oriented, platform-independent web application.
-                li 
-                  i.icon-angle-right  
-                  | Mentoring team members on front-end techniques and best practices.
-
-            #UniB.exp-container
-              h3 Uni-B Solutions
-              h4 Sr. Software Engineer, Front-End
-              p Bootstrap, CoffeeScript, Jade, jQuery, LESS, Mustache, Node.js, Sammy
-              ul.list-unstyled
-                li
-                  i.icon-angle-right  
-                  | Developing responsively-designed, single-page administrative web application for Uni-B's process automation product.
-                li 
-                  i.icon-angle-right  
-                  | Collaborating with engineers, clients, and product analysts to identify and implement new features for Uni-B's client-facing application.
-                li 
-                  i.icon-angle-right  
-                  | Assisting in defining RESTful API features and data schemas.
-
-            #UniB.exp-container
-              h3 Uni-B Solutions
-              h4 Sr. Software Engineer, Front-End
-              p Bootstrap, CoffeeScript, Jade, jQuery, LESS, Mustache, Node.js, Sammy
-              ul.list-unstyled
-                li
-                  i.icon-angle-right   
-                  | Developing responsively-designed, single-page administrative web application for Uni-B's process automation product.
-                li
-                  i.icon-angle-right  
-                  | Collaborating with engineers, clients, and product analysts to identify and implement new features for Uni-B's client-facing application.
-                li
-                  i.icon-angle-right  
-                  | Assisting in defining RESTful API features and data schemas.
-
-            #SS.exp-container
-              h3 SteelSeries
-              h4 Sr. Software Engineer, Front-End
-              p CoffeeScript, jQuery, jQuery UI, Knockout, LESS, RequireJS
-              ul.list-unstyled
-                li
-                  i.icon-angle-right  
-                  | Developed front-end components for SteelSeries Engine, a cross-platform "control panel" application for gaming hardware that utilizes web technologies for its user interfaces.
-                li
-                  i.icon-angle-right  
-                  | Implemented client-side localization for SteelSeries Engine.
-                li
-                  i.icon-angle-right  
-                  | Created multiple, dynamically-applicable "skins" for the SteelSeries engine, from both internal and third-party designs.
-
-            #ES.exp-container
-              h3 SteelSeries
-              h4 Lead Front-End Developer
-              p CSS3Pie, Handlebars, jQuery, jQuery UI, LESS, SASS, Sencha Touch
-              ul.list-unstyled
-                li
-                  i.icon-angle-right  
-                  | Architected front-end for the service-oriented, mobile-web version of Emmi's core patient information product.
-                li
-                  i.icon-angle-right  
-                  | Created AJAX-based portal to assist marketing department in demonstrating Emmi programs to clients.
-                li
-                  i.icon-angle-right  
-                  | Implemented localizable, progressively-enhanced, responsive designs for the new version of Emmi's core web application.
-
-            a#ExpBack(href='#') 
-              i.icon-caret-left  
-              | Experience
-
-      hr
+            table.table.table-striped
+              thead
+                tr
+                  th Employer
+                  th Position
+                  th Duration
+              tbody
+                tr
+                  td Amazon
+                  td Web Development Engineer II
+                  td 1/14 - Current
+                tr
+                  td InContext Solutions  
+                  td Sr. Front-End Engineer
+                  td 8/13 - 12/13
+                tr
+                  td Uni-B Solutions  
+                  td Sr. Software Engineer, Front-End
+                  td 2/13 - 1/14
+                tr
+                  td SteelSeries  
+                  td Sr. Software Engineer, Front-End
+                  td 5/12 - 8/13
+                tr
+                  td Emmi Solutions
+                  td Lead Front-End Developer
+                  td 2/11 - 4/12
+                tr
+                  td Chicago Tribune
+                  td Sr. Front-End Developer
+                  td 3/10 - 2/11
+                tr
+                  td Sears  
+                  td Front-End Developer
+                  td 12/09 - 3/10
+                tr
+                  td WMS Gaming
+                  td Assoc. Online Engineer
+                  td 9/08 - 12/09
+                tr
+                  td(rowspan='2') Hubbard One  
+                  td Sr. Web Production Designer
+                  td 9/07 - 9/08
+                tr
+                  td Assoc. Web Developer
+                  td 9/06 - 9/07
+                tr
+                  td Guaranteed Rate  
+                  td Web Developer
+                  td 8/05 - 9/06
 
       footer
         .row
           .col-md-6
-            em.muted &copy; Jan Szpila 2013
+            a.muted.email-link &copy; Jan Szpila 2013
           .col-md-6.align-right
-            em.muted Damn, it feels good to be a gangsta
+            a.muted(href='http://www.youtube.com/watch?v=W9_iQ1FSnp8', title='I have approximate knowledge of many things.') I have approximate knowledge of many things.
 
     script(src='http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js')
     script(src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js")

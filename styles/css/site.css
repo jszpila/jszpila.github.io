@@ -98,6 +98,9 @@ section h2 {
 footer {
   padding: 15px 0;
 }
+footer a {
+  font-style: italic;
+}
 .align-right {
   text-align: right;
 }
@@ -109,14 +112,4 @@ footer {
 }
 .nav-bar {
   border: 0;
-}
-.exp-container {
-  display: none;
-}
-.exp-container p {
-  font-style: italic;
-}
-#Experience {
-  height: 557px;
-  overflow: hidden;
 }
