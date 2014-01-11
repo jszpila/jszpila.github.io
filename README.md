@@ -1,4 +1,7 @@
 jszpila.github.com
 ==================
 
-![So done.](https://dl.dropboxusercontent.com/u/418027/DETITY.jpg)  
+> Wherever there is fun to be had, I will be there. Not having it. And preventing anyone else from having it. 
+
+![So done.](images/explain.jpg)  
+
