@@ -78,9 +78,6 @@ section h2 {
   font-weight: bold;
   display: block;
 }
-#Skills .group-content {
-  padding-left: 15px;
-}
 #Skills .muted {
   padding-left: 5px;
 }
@@ -101,9 +98,6 @@ footer {
 footer a {
   font-style: italic;
 }
-.align-right {
-  text-align: right;
-}
 .muted {
   color: #999;
 }
@@ -112,4 +106,16 @@ footer a {
 }
 .nav-bar {
   border: 0;
+}
+.title-container {
+  position: relative;
+}
+.platforms {
+  margin: 0;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.platforms .fa-terminal.fa-inverse {
+  background-color: #000;
 }
