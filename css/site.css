@@ -119,3 +119,12 @@ footer a {
 .platforms .fa-terminal.fa-inverse {
   background-color: #000;
 }
+.filters .title {
+  font-weight: bold;
+}
+.filters .active a {
+  text-decoration: underline;
+}
+.four-oh-four .masthead {
+  background-color: #000;
+}
