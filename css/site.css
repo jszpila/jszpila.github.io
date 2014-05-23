@@ -1,13 +1,16 @@
 /*!
- * Main LESS file for jszpila.github.com
+ * Main CSS file for jszpila.github.io
  * Author: Jan Szpila
  */
-/* General */
 .navbar {
   margin-bottom: 0;
+  border: 0;
 }
-.navbar.navbar-fixed-top {
-  position: relative;
+.navbar-collapse.collapsing li,
+.navbar-collapse.collapse.in li {
+  display: inline-block;
+  width: 19%;
+  text-align: center;
 }
 a {
   text-decoration: none;
@@ -72,7 +75,6 @@ section {
   border-bottom: solid 1px #CCC;
 }
 section:last-child {
-  padding-bottom: 20px;
   border-bottom: none;
 }
 footer {
@@ -83,30 +85,6 @@ footer a {
 }
 .muted {
   color: #999;
-}
-.body {
-  background-color: #FFF;
-}
-.nav-bar {
-  border: 0;
-}
-.title-container {
-  position: relative;
-}
-.platforms {
-  margin: 0;
-  position: absolute;
-  bottom: 0;
-  right: 0;
-}
-.platforms .fa-terminal.fa-inverse {
-  background-color: #000;
-}
-.filters .title {
-  font-weight: bold;
-}
-.filters .active a {
-  text-decoration: underline;
 }
 #Experience .header {
   font-weight: bold;
@@ -134,6 +112,9 @@ footer a {
 }
 #Experience .panel-body {
   border-top-color: #EEE;
+}
+#Experience .panel-body ul {
+  padding-left: 15px;
 }
 .four-oh-four .masthead {
   background-color: #000;
