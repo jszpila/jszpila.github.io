@@ -72,7 +72,6 @@ a:hover {
 }
 section {
   padding-bottom: 20px;
-  border-bottom: solid 1px #CCC;
 }
 section:last-child {
   border-bottom: none;
@@ -121,4 +120,20 @@ footer a {
 }
 .icon-bar {
   background-color: #428bca;
+}
+hr {
+  padding: 0;
+  border: none;
+  border-top: solid 1px #DDD;
+  color: #DDD;
+  text-align: center;
+}
+hr:after {
+  content: "< / >";
+  display: inline-block;
+  position: relative;
+  top: -0.85em;
+  font-size: 1em;
+  padding: 0 0.25em;
+  background: white;
 }
