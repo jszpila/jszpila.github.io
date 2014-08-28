@@ -115,8 +115,12 @@ footer a {
 #Experience .panel-body ul {
   padding-left: 15px;
 }
+.four-oh-four {
+  background: url(../img/glitch-2.gif) no-repeat center center fixed;
+  background-size: cover;
+}
 .four-oh-four .masthead {
-  background-color: #000;
+  background-color: rgba(0, 0, 0, .75);
 }
 .icon-bar {
   background-color: #428bca;
