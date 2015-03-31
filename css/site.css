@@ -21,7 +21,7 @@ a:hover {
   color: #FFF;
   text-shadow: 1px 1px 1px #000000;
   background: #CCC url('/img/bg.svg') top left no-repeat;
-  background-size: contain cover;
+  background-size: cover;
 }
 .masthead img {
   margin-top: 5px;
