@@ -1,7 +1,3 @@
-/*!
- * Main CSS file for jszpila.github.io
- * Author: Jan Szpila
- */
 .navbar {
   margin-bottom: 0;
   border: 0;
@@ -24,41 +20,8 @@ a:hover {
 .masthead {
   color: #FFF;
   text-shadow: 1px 1px 1px #000000;
-}
-.masthead.bg-1 {
-  background: -webkit-gradient(linear, 7% 2%, 93% 93%, color-stop(0.93, rgba(7, 45, 233, 0.5)), color-stop(0.93, transparent)), -webkit-gradient(linear, 82% 85%, 55% 55%, color-stop(0.55, rgba(57, 107, 228, 0.5)), color-stop(0.55, transparent)), -webkit-gradient(linear, 20% 43%, 97% 97%, color-stop(0.97, rgba(186, 2, 45, 0.5)), color-stop(0.97, transparent));
-  background: -moz-linear-gradient(7% 2%, rgba(7, 45, 233, 0.5) 93%, transparent 93%), -moz-linear-gradient(82% 85%, rgba(57, 107, 228, 0.5) 55%, transparent 55%), -moz-linear-gradient(20% 43%, rgba(186, 2, 45, 0.5) 97%, transparent 97%);
-  background: -o-linear-gradient(7% 2%, rgba(7, 45, 233, 0.5) 93%, transparent 93%), -o-linear-gradient(82% 85%, rgba(57, 107, 228, 0.5) 55%, transparent 55%), -o-linear-gradient(20% 43%, rgba(186, 2, 45, 0.5) 97%, transparent 97%);
-  background: linear-gradient(to 7% 2%, rgba(7, 45, 233, 0.5) 93%, transparent 93%), linear-gradient(to 82% 85%, rgba(57, 107, 228, 0.5) 55%, transparent 55%), linear-gradient(to 20% 43%, rgba(186, 2, 45, 0.5) 97%, transparent 97%);
-  background-color: #FFF;
-}
-.masthead.bg-2 {
-  background: -webkit-gradient(linear, 16% 66%, 43% 43%, color-stop(0.43, rgba(23, 22, 22, 0.27)), color-stop(0.43, transparent)), -webkit-gradient(linear, 97% 54%, 85% 85%, color-stop(0.85, rgba(0, 0, 0, 0.14)), color-stop(0.85, transparent)), -webkit-gradient(linear, 87% 58%, 65% 65%, color-stop(0.65, rgba(24, 22, 22, 0.39)), color-stop(0.65, transparent)), -webkit-gradient(linear, 91% 30%, 78% 91%, color-stop(0.91, rgba(11, 9, 9, 0.23)), color-stop(0.91, transparent)), -webkit-gradient(linear, 79% 6%, 46% 46%, color-stop(0.46, rgba(21, 20, 20, 0.11)), color-stop(0.46, transparent)), -webkit-gradient(linear, 8% 84%, 59% 90%, color-stop(0.9, rgba(3, 3, 3, 0.18)), color-stop(0.9, transparent));
-  background: -moz-linear-gradient(16% 66%, rgba(23, 22, 22, 0) 43%, transparent 43%), -moz-linear-gradient(97% 54%, rgba(0, 0, 0, 0.14) 85%, transparent 85%), -moz-linear-gradient(87% 58%, rgba(24, 22, 22, 0.39) 65%, transparent 65%), -moz-linear-gradient(91% 30%, rgba(11, 9, 9, 0.23) 91%, transparent 91%), -moz-linear-gradient(79% 6%, rgba(21, 20, 20, 0) 46%, transparent 46%), -moz-linear-gradient(8% 84%, rgba(3, 3, 3, 0) 90%, transparent 90%);
-  background: -o-linear-gradient(16% 66%, rgba(23, 22, 22, 0) 43%, transparent 43%), -o-linear-gradient(97% 54%, rgba(0, 0, 0, 0.14) 85%, transparent 85%), -o-linear-gradient(87% 58%, rgba(24, 22, 22, 0.39) 65%, transparent 65%), -o-linear-gradient(91% 30%, rgba(11, 9, 9, 0.23) 91%, transparent 91%), -o-linear-gradient(79% 6%, rgba(21, 20, 20, 0) 46%, transparent 46%), -o-linear-gradient(8% 84%, rgba(3, 3, 3, 0) 90%, transparent 90%);
-  background: linear-gradient(to 16% 66%, rgba(23, 22, 22, 0) 43%, transparent 43%), linear-gradient(to 97% 54%, rgba(0, 0, 0, 0.14) 85%, transparent 85%), linear-gradient(to 87% 58%, rgba(24, 22, 22, 0.39) 65%, transparent 65%), linear-gradient(to 91% 30%, rgba(11, 9, 9, 0.23) 91%, transparent 91%), linear-gradient(to 79% 6%, rgba(21, 20, 20, 0) 46%, transparent 46%), linear-gradient(to 8% 84%, rgba(3, 3, 3, 0) 90%, transparent 90%);
-  background-color: #666;
-}
-.masthead.bg-3 {
-  background: -webkit-gradient(linear, 27% 94%, 30% 30%, color-stop(0.3, rgba(25, 21, 21, 0.1)), color-stop(0.3, transparent)), -webkit-gradient(linear, 13% 41%, 49% 57%, color-stop(0.49, rgba(3, 3, 3, 0.14)), color-stop(0.49, transparent)), -webkit-gradient(linear, 31% 95%, 5% 27%, color-stop(0.27, rgba(16, 16, 16, 0.39)), color-stop(0.27, transparent)), -webkit-gradient(linear, 28% 10%, 8% 93%, color-stop(0.08, rgba(11, 9, 9, 0.23)), color-stop(0.08, transparent)), -webkit-gradient(linear, 72% 21%, 62% 38%, color-stop(0.62, rgba(8, 7, 7, 0.17)), color-stop(0.62, transparent)), -webkit-gradient(linear, 38% 44%, 25% 75%, color-stop(0.1, rgba(21, 20, 20, 0.09)), color-stop(0.1, transparent));
-  background: -moz-linear-gradient(27% 94%, rgba(25, 21, 21, 0) 30%, transparent 30%), -moz-linear-gradient(13% 41%, rgba(3, 3, 3, 0.14) 49%, transparent 49%), -moz-linear-gradient(31% 95%, rgba(16, 15, 15, 0.39) 27%, transparent 27%), -moz-linear-gradient(28% 10%, rgba(11, 9, 9, 0.23) 8%, transparent 8%), -moz-linear-gradient(72% 21%, rgba(8, 7, 7, 0) 62%, transparent 62%), -moz-linear-gradient(38% 44%, rgba(21, 20, 20, 0) 0%, transparent 0%);
-  background: -o-linear-gradient(27% 94%, rgba(25, 21, 21, 0) 30%, transparent 30%), -o-linear-gradient(13% 41%, rgba(3, 3, 3, 0.14) 49%, transparent 49%), -o-linear-gradient(31% 95%, rgba(16, 15, 15, 0.39) 27%, transparent 27%), -o-linear-gradient(28% 10%, rgba(11, 9, 9, 0.23) 8%, transparent 8%), -o-linear-gradient(72% 21%, rgba(8, 7, 7, 0) 62%, transparent 62%), -o-linear-gradient(38% 44%, rgba(21, 20, 20, 0) 0%, transparent 0%);
-  background: linear-gradient(to 27% 94%, rgba(25, 21, 21, 0) 30%, transparent 30%), linear-gradient(to 13% 41%, rgba(3, 3, 3, 0.14) 49%, transparent 49%), linear-gradient(to 31% 95%, rgba(16, 15, 15, 0.39) 27%, transparent 27%), linear-gradient(to 28% 10%, rgba(11, 9, 9, 0.23) 8%, transparent 8%), linear-gradient(to 72% 21%, rgba(8, 7, 7, 0) 62%, transparent 62%), linear-gradient(to 38% 44%, rgba(21, 20, 20, 0) 0%, transparent 0%);
-  background-color: #666;
-}
-.masthead.bg-4 {
-  background: -webkit-gradient(linear, 45% 20%, 99% 1%, color-stop(0.77, rgba(1, 1, 121, 0.33)), color-stop(0.77, transparent)), -webkit-gradient(linear, 40% 23%, 80% 20%, color-stop(0.8, rgba(0, 0, 62, 0.14)), color-stop(0.8, transparent)), -webkit-gradient(linear, 80% 66%, 48% 52%, color-stop(0.48, rgba(22, 19, 19, 0.39)), color-stop(0.48, transparent)), -webkit-gradient(linear, 98% 53%, 57% 33%, color-stop(0.57, rgba(15, 15, 15, 0.23)), color-stop(0.57, transparent)), -webkit-gradient(linear, 89% 97%, 35% 65%, color-stop(0.35, rgba(2, 2, 213, 0.35)), color-stop(0.35, transparent)), -webkit-gradient(linear, 99% 2%, 23% 77%, color-stop(0.23, rgba(8, 8, 8, 0.67)), color-stop(0.23, transparent)), -webkit-gradient(linear, 26% 23%, 3% 97%, color-stop(0.03, rgba(31, 31, 255, 0.4)), color-stop(0.03, transparent));
-  background: -moz-linear-gradient(45% 30%, rgba(1, 1, 121, 0) 99%, transparent 99%), -moz-linear-gradient(40% 23%, rgba(0, 0, 62, 0.14) 80%, transparent 80%), -moz-linear-gradient(80% 66%, rgba(22, 19, 19, 0.39) 48%, transparent 48%), -moz-linear-gradient(98% 53%, rgba(15, 15, 15, 0.23) 57%, transparent 57%), -moz-linear-gradient(89% 97%, rgba(2, 2, 213, 0) 35%, transparent 35%), -moz-linear-gradient(99% 2%, rgba(8, 8, 8, 0) 23%, transparent 23%), -moz-linear-gradient(26% 23%, rgba(31, 31, 255, 0.4) 3%, transparent 3%);
-  background: -o-linear-gradient(45% 30%, rgba(1, 1, 121, 0) 99%, transparent 99%), -o-linear-gradient(40% 23%, rgba(0, 0, 62, 0.14) 80%, transparent 80%), -o-linear-gradient(80% 66%, rgba(22, 19, 19, 0.39) 48%, transparent 48%), -o-linear-gradient(98% 53%, rgba(15, 15, 15, 0.23) 57%, transparent 57%), -o-linear-gradient(89% 97%, rgba(2, 2, 213, 0) 35%, transparent 35%), -o-linear-gradient(99% 2%, rgba(8, 8, 8, 0) 23%, transparent 23%), -o-linear-gradient(26% 23%, rgba(31, 31, 255, 0.4) 3%, transparent 3%);
-  background: linear-gradient(to 45% 30%, rgba(1, 1, 121, 0) 99%, transparent 99%), linear-gradient(to 40% 23%, rgba(0, 0, 62, 0.14) 80%, transparent 80%), linear-gradient(to 80% 66%, rgba(22, 19, 19, 0.39) 48%, transparent 48%), linear-gradient(to 98% 53%, rgba(15, 15, 15, 0.23) 57%, transparent 57%), linear-gradient(to 89% 97%, rgba(2, 2, 213, 0) 35%, transparent 35%), linear-gradient(to 99% 2%, rgba(8, 8, 8, 0) 23%, transparent 23%), linear-gradient(to 26% 23%, rgba(31, 31, 255, 0.4) 3%, transparent 3%);
-  background-color: #FFF;
-}
-.masthead.bg-5 {
-  background: -webkit-gradient(linear, 14% 45%, 75% 25%, color-stop(0.75, rgba(1, 1, 101, 0.1)), color-stop(0.75, transparent)), -webkit-gradient(linear, 54% 73%, 45% 55%, color-stop(0.45, rgba(1, 1, 71, 0.14)), color-stop(0.45, transparent)), -webkit-gradient(linear, 52% 37%, 27% 73%, color-stop(0.27, rgba(16, 15, 15, 0.39)), color-stop(0.27, transparent)), -webkit-gradient(linear, 98% 18%, 21% 79%, color-stop(0.21, rgba(21, 20, 20, 0.23)), color-stop(0.21, transparent)), -webkit-gradient(linear, 86% 1%, 73% 27%, color-stop(0.73, rgba(6, 6, 244, 0.73)), color-stop(0.73, transparent)), -webkit-gradient(linear, 16% 2%, 95% 5%, color-stop(0.95, rgba(11, 10, 10, 0.22)), color-stop(0.95, transparent)), -webkit-gradient(linear, 81% 51%, 99% 1%, color-stop(0.99, rgba(28, 28, 253, 0.4)), color-stop(0.99, transparent));
-  background: -moz-linear-gradient(14% 45%, rgba(1, 1, 101, 0) 75%, transparent 75%), -moz-linear-gradient(54% 73%, rgba(1, 1, 71, 0.14) 45%, transparent 45%), -moz-linear-gradient(52% 37%, rgba(16, 15, 15, 0.39) 27%, transparent 27%), -moz-linear-gradient(98% 18%, rgba(21, 20, 20, 0.23) 21%, transparent 21%), -moz-linear-gradient(86% 1%, rgba(6, 6, 244, 0) 73%, transparent 73%), -moz-linear-gradient(16% 2%, rgba(11, 10, 10, 0) 95%, transparent 95%), -moz-linear-gradient(81% 51%, rgba(28, 28, 253, 0.4) 99%, transparent 99%), -moz-linear-gradient(43% 4%, rgba(255, 255, 255, 0.19) 78%, transparent 78%), -moz-linear-gradient(97% 31%, rgba(24, 22, 22, 0) 55%, transparent 55%), -moz-linear-gradient(92% 7%, rgba(32, 32, 254, 0.3) 67%, transparent 67%);
-  background: -o-linear-gradient(14% 45%, rgba(1, 1, 101, 0) 75%, transparent 75%), -o-linear-gradient(54% 73%, rgba(1, 1, 71, 0.14) 45%, transparent 45%), -o-linear-gradient(52% 37%, rgba(16, 15, 15, 0.39) 27%, transparent 27%), -o-linear-gradient(98% 18%, rgba(21, 20, 20, 0.23) 21%, transparent 21%), -o-linear-gradient(86% 1%, rgba(6, 6, 244, 0) 73%, transparent 73%), -o-linear-gradient(16% 2%, rgba(11, 10, 10, 0) 95%, transparent 95%), -o-linear-gradient(81% 51%, rgba(28, 28, 253, 0.4) 99%, transparent 99%), -o-linear-gradient(43% 4%, rgba(255, 255, 255, 0.19) 78%, transparent 78%), -o-linear-gradient(97% 31%, rgba(24, 22, 22, 0) 55%, transparent 55%), -o-linear-gradient(92% 7%, rgba(32, 32, 254, 0.3) 67%, transparent 67%);
-  background: linear-gradient(to 14% 45%, rgba(1, 1, 101, 0) 75%, transparent 75%), linear-gradient(to 54% 73%, rgba(1, 1, 71, 0.14) 45%, transparent 45%), linear-gradient(to 52% 37%, rgba(16, 15, 15, 0.39) 27%, transparent 27%), linear-gradient(to 98% 18%, rgba(21, 20, 20, 0.23) 21%, transparent 21%), linear-gradient(to 86% 1%, rgba(6, 6, 244, 0) 73%, transparent 73%), linear-gradient(to 16% 2%, rgba(11, 10, 10, 0) 95%, transparent 95%), linear-gradient(to 81% 51%, rgba(28, 28, 253, 0.4) 99%, transparent 99%), linear-gradient(to 43% 4%, rgba(255, 255, 255, 0.19) 78%, transparent 78%), linear-gradient(to 97% 31%, rgba(24, 22, 22, 0) 55%, transparent 55%), linear-gradient(to 92% 7%, rgba(32, 32, 254, 0.3) 67%, transparent 67%);
-  background-color: #EFEFEF;
+  background: #CCC url('/img/bg.svg') top left no-repeat;
+  background-size: contain cover;
 }
 .masthead img {
   margin-top: 5px;
@@ -116,7 +79,7 @@ footer a {
   padding-left: 15px;
 }
 .four-oh-four {
-  background: url(../img/glitch-2.gif) no-repeat center center fixed;
+  background: #000 url(/img/glitch-2.gif) no-repeat center center fixed;
   background-size: cover;
 }
 .four-oh-four .masthead {
