@@ -30,9 +30,6 @@ a:hover {
 #Content {
   margin-top: 25px;
 }
-.skills .muted {
-  padding-left: 5px;
-}
 section {
   padding-bottom: 20px;
 }
@@ -44,6 +41,12 @@ footer {
 }
 .muted {
   color: #999;
+}
+.projects {
+  width: 100%;
+}
+.projects td {
+  vertical-align: top;
 }
 #Experience .header {
   font-weight: bold;
