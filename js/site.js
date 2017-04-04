@@ -1,6 +1,5 @@
 (function() {
   $(function() {
-    // $('header').addClass('bg-' + Math.floor((Math.random() * 5) + 1));
     $('.collapse').collapse({toggle: false});
 
     return $('.email-link').click(function(e) {
@@ -8,7 +7,7 @@
 
       var curVal = null,
         i = 0,
-        parts = [19, 28, 35, 25, 18, 21, 10, '@', 16, 22, 10, 18, 21, '.', 12, 24, 22],
+        parts = [19, 10, 23, '@', 28, 35, 25, 18, '.', 21, 10],
         x = parts.length;
 
       while (i < x) {
@@ -18,6 +17,7 @@
         }
         i++;
       }
+
       return window.open(['mailto:', parts.join(''), '?subject=Hi%2C%20Jan!'].join(''));
     });
   });

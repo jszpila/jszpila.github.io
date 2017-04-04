@@ -1,7 +1,6 @@
 /* TEAM */
   HMFIC: Jan Szpila
-  Contact: jszpila [at] gmail.com
-  Twitter: @janszpila
+  Contact: jan [at] szpi.la
   Github: jszpila
   From: Chicago, IL, USA
 
@@ -13,7 +12,7 @@
   https://github.com/bookcasey/harsh
 
 /* SITE */
-  Last update: 2013/9/16
+  Last update: 2017/4/4
   Standards: HTML5, CSS3, JavaScript
-  Components: jQuery, Twitter Bootstrap, CoffeeScript Jade, LESS
-  Software: Sublime Text, CodeKit
+  Components: jQuery, Bootstrap
+  Software: Atom

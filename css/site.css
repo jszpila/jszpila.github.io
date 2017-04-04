@@ -30,7 +30,7 @@ a:hover {
 #Content {
   margin-top: 25px;
 }
-#Skills .muted {
+.skills .muted {
   padding-left: 5px;
 }
 section {
@@ -41,9 +41,6 @@ section:last-child {
 }
 footer {
   padding: 15px 0;
-}
-footer a {
-  font-style: italic;
 }
 .muted {
   color: #999;
@@ -76,6 +73,7 @@ footer a {
   border-top-color: #EEE;
 }
 #Experience .panel-body ul {
+  margin-top: 10px;
   padding-left: 15px;
 }
 .four-oh-four {
@@ -87,6 +85,9 @@ footer a {
 }
 .icon-bar {
   background-color: #428bca;
+}
+dd {
+  margin-bottom: 15px;
 }
 hr {
   padding: 0;
