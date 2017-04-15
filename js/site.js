@@ -2,7 +2,21 @@
   $(function() {
     $('.collapse').collapse({toggle: false});
 
-    return $('.email-link').click(function(e) {
+    $('#Projects a').on('click', function(event) {
+      if (this.hash !== '') {
+        event.preventDefault();
+        var hash = this.hash.slice(1);
+
+        $('body').animate(
+          {scrollTop: $('a[name="' + hash + '"]').offset().top},
+          600,
+          function() {
+            window.location.hash = hash;
+        });
+      }
+    });
+
+    $('.email-link').click(function(e) {
       e.preventDefault();
 
       var curVal = null,

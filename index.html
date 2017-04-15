@@ -58,7 +58,7 @@
       <div class="container">
         <div class="row">
           <div class="col-sm-2 text-center">
-            <img src="img/MonkeyHat.jpg" alt="Jan “Yahn” Szpila: JavaScript Engineer and all around Swell Guy™." class="img-rounded" style="width: 100%;">
+            <img src="img/MonkeyHat.jpg" alt="Jan “Yahn” Szpila: JavaScript Engineer and all around Swell Guy™." class="img-rounded" class="portrait">
           </div>
           <div class="col-sm-10">
             <h1>I'm Jan “Yahn” Szpila, and I can build it. I have the technology.</h1>
@@ -69,67 +69,72 @@
     </header>
 
     <div id="Content" class="container" role="main">
-      <section>
         <div class="row">
-          <div class="col-md-6 skills">
-            <h2>Skills <small>to pay the bills</small></h2>
-            <dl>
-              <dt>Tools</dt>
-              <dd>Atom, Electron, Git, Grunt, Gulp, Karma, Photoshop, Webpack, ZSH</dd>
-              <dt>Technologies</dt>
-              <dd>CSS <i class="muted">(SASS, LESS, Stylus)</i>, HTML <i class="muted">(Pug)</i>, JavaScript <i class="muted">(ES5+, CoffeeScript)</i>, Node</dd>
-              <dt>Frameworks & Libraries</dt>
-              <dd>Bootstrap, Express, Foundation, jQuery, Knockout, Propeller, React, Redux, Vue</dd>
-            </dl>
+          <div class="col-md-6">
+            <section id="Skillz">
+              <h2>Skills <small>to pay the bills</small></h2>
+              <dl>
+                <dt><h4>Technologies</h4></dt>
+                <dd>CSS <i class="muted">(SASS, LESS, Stylus)</i>, HTML <i class="muted">(Pug)</i>, JavaScript <i class="muted">(ClojureScript, ES5+)</i>, Node</dd>
+                <dt><h4>Frameworks & Libraries<h4></dt>
+                <dd>Bootstrap, Express, Flux, Foundation, jQuery, Knockout, Polymer, Propeller, re-frame, React, Redux, Vue, Vuex</dd>
+                <dt><h4>Tools</h4></dt>
+                <dd>
+                  <ul class="list-unstyled breakdown">
+                    <li><strong>General</strong> Atom, Electron, Git, Photoshop, ZSH</li>
+                    <li><strong>Testing</strong> Chai, Jest, Karma, Mocha, Sinon, QUnit</li>
+                    <li><strong>Workflow</strong> Grunt, Gulp, NPM, Neutrino, Rollup, Webpack, Yarn</li>
+                  </ul>
+                </dd>
+              </dl>
+            </section>
           </div>
           <div class="col-md-6">
-            <h2>Major Projects <small>built bit by bit</small></h2>
-            <table class="table projects">
-              <thead>
-                <tr>
-                  <th>Employer</th>
-                  <th>Year</th>
-                  <th>Project</th>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>Guaranteed Rate</td>
-                  <td>2017</td>
-                  <td>Intuitive Loan Finder</td>
-                </tr>
-                <tr>
-                  <td rowspan="3">Amazon</td>
-                  <td rowspan="3">2014</td>
-                  <td>Fire Phone: First Run Experience</td>
-                </tr>
-                <tr>
-                  <td>Prime Music launch</td>
-                </tr>
-                <tr>
-                  <td>Prime Instant Video launch, DE/UK</td>
-                </tr>
-                <tr>
-                  <td rowspan="2">Emmi Solutions</td>
-                  <td rowspan="2">2012</td>
-                  <td>ViewEmmi</td>
-                </tr>
-                <tr>
-                  <td>EmmiMobility</td>
-                </tr>
-              </tbody>
-            </table>
-              <!-- <li>Intuitive Loan Finder <i>Guaranteed Rate, 2017</i></li>
-              <li>Fire Phone: First Run Experience <i>Amazon, 2014</i></li>
-              <li>Prime Music Launch <i>Amazon, 2014</i></li>
-              <li>Prime Instant Video Launch, DE/UK <i>Amazon, 2014</i></li>
-              <li>SteelSeries Engine 3 <i>SteelSeries, 2013</i></li>
-              <li>ViewEmmi <i>Emmi Solutions, 2012</i></li>
-              <li>EmmiMobility <i>Emmi Solutions, 2012</i></li>
-            </ul> -->
-            <!-- what to put here? -->
+            <section id="Projects">
+              <hr class="visible-sm-block visible-xs-block">
+              <h2>Major Projects <small>built bit by bit</small></h2>
+              <table class="table projects">
+                <thead>
+                  <tr>
+                    <th>Employer</th>
+                    <th>Year</th>
+                    <th>Project</th>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a href="#GR">Guaranteed Rate <i class="fa fa-info-circle muted"></a></td>
+                    <td>2017</td>
+                    <td>Intuitive Loan Finder</td>
+                  </tr>
+                  <tr>
+                    <td rowspan="3"><a href="#Amazon">Amazon <i class="fa fa-info-circle muted"></a></td>
+                    <td rowspan="3">2014</td>
+                    <td>Fire Phone: First Run Experience</td>
+                  </tr>
+                  <tr>
+                    <td>Prime Music launch</td>
+                  </tr>
+                  <tr>
+                    <td>Prime Instant Video launch, DE/UK</td>
+                  </tr>
+                  <tr>
+                    <td><a href="#SteelSeries">SteelSeries <i class="fa fa-info-circle muted"></a></td>
+                    <td>2013</td>
+                    <td>SteelSeries Engine 3</td>
+                  </tr>
+                  <tr>
+                    <td rowspan="2"><a href="#Emmi">Emmi Solutions <i class="fa fa-info-circle muted"></i></a></td>
+                    <td rowspan="2">2012</td>
+                    <td>ViewEmmi</td>
+                  </tr>
+                  <tr>
+                    <td>EmmiMobility</td>
+                  </tr>
+                </tbody>
+              </table>
+            </section>
           </div>
         </div>
-      </section>
 
       <hr>
 
@@ -149,7 +154,7 @@
         <div class="panel-group" id="accordion">
           <div class="panel panel-default">
             <div class="panel-heading row">
-              <div class="col-xs-4"><a data-toggle="collapse" data-parent="#accordion" href="#Details-GR">Guaranteed Rate</a> <span class="muted">(again!)</span></div>
+              <div class="col-xs-4"><a data-toggle="collapse" data-parent="#accordion" href="#Details-GR" name="GR">Guaranteed Rate</a> <span class="muted">(again!)</span></div>
               <div class="col-xs-4">Software Engineer</div>
               <div class="col-xs-4">1/16 - Current</div>
             </div>
@@ -168,9 +173,9 @@
 
           <div class="panel panel-default">
             <div class="panel-heading row">
-              <div class="col-xs-4"><a data-toggle="collapse" data-parent="#accordion" href="#Details-RSG">Rush Street Gaming</a></div>
-              <div class="col-xs-4">Software Engineer</div>
-              <div class="col-xs-4">2/15 - 12/15</div>
+              <div class="col-sm-4 col-xs-4"><a data-toggle="collapse" data-parent="#accordion" href="#Details-RSG">Rush Street Gaming</a></div>
+              <div class="col-sm-4 col-xs-4">Software Engineer</div>
+              <div class="col-sm-4 col-xs-4">2/15 - 1/16</div>
             </div>
             <div id="Details-RSG" class="panel-collapse collapse">
               <div class="panel-body">
@@ -185,7 +190,7 @@
 
           <div class="panel panel-default">
             <div class="panel-heading row">
-              <div class="col-xs-4"><a data-toggle="collapse" data-parent="#accordion" href="#Details-Amazon">Amazon</a></div>
+              <div class="col-xs-4"><a data-toggle="collapse" data-parent="#accordion" href="#Details-Amazon" name="Amazon">Amazon</a></div>
               <div class="col-xs-4">Web Development Engineer II</div>
               <div class="col-xs-4">1/14 - 2/15</div>
             </div>
@@ -239,7 +244,7 @@
 
           <div class="panel panel-default">
             <div class="panel-heading row">
-              <div class="col-xs-4"><a data-toggle="collapse" data-parent="#accordion" href="#Details-SteelSeries">SteelSeries</a></div>
+              <div class="col-xs-4"><a data-toggle="collapse" data-parent="#accordion" href="#Details-SteelSeries" name="SteelSeries">SteelSeries</a></div>
               <div class="col-xs-4">Sr. Software Engineer, Front-End</div>
               <div class="col-xs-4">5/12 - 8/13</div>
             </div>
@@ -257,7 +262,7 @@
 
           <div class="panel panel-default">
             <div class="panel-heading row">
-              <div class="col-xs-4"><a data-toggle="collapse" data-parent="#accordion" href="#Details-EmmiSolutions">Emmi Solutions</a></div>
+              <div class="col-xs-4"><a data-toggle="collapse" data-parent="#accordion" href="#Details-EmmiSolutions" name="Emmi">Emmi Solutions</a></div>
               <div class="col-xs-4">Lead Front-End Developer</div>
               <div class="col-xs-4">2/11 - 4/12</div>
             </div>
@@ -323,18 +328,8 @@
       </footer>
     </div>
 
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-      ga('create', 'UA-50239223-1', 'jszpila.me');
-      ga('send', 'pageview');
-    </script>
-
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
-    <script src="js/site.js"></script>
+    <script src="js/site.min.js"></script>
   </body>
 </html>
