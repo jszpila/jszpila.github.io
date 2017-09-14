@@ -20,8 +20,7 @@ a:hover {
 .masthead {
   color: #FFF;
   text-shadow: 1px 1px 1px #000000;
-  background: #CCC url('/img/bg.svg') top left no-repeat;
-  background-size: cover;
+  background: #CCC url('/img/concrete_wall_@2X.png') top left;
 }
 .masthead img {
   margin-top: 5px;
