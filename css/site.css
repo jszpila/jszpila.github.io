@@ -113,9 +113,45 @@ hr:after {
 ul.list-unstyled.breakdown {
   padding-left: 15px;
 }
+.gallery .main h2 {
+  border-top: solid 1px #DDD;
+  padding-top: 20px;
+}
+.gallery .main section:first-child h2 {
+  border-top: none;
+  padding-top: 20px;
+}
+.gallery figure {
+  background-color: #DDD;
+    -webkit-transition: background-color 500ms linear;
+    -ms-transition: background-color 500ms linear;
+    transition: background-color 500ms linear;
+  color: #111;
+  text-align: center;
+  margin-bottom: 15px;
+  padding: 7px 0 13px 0;
+}
+.gallery figure:hover {
+  background-color: #EEE;
+}
+.gallery figure figcaption {
+  text-transform: capitalize;
+}
+.gallery em {
+  text-transform: lowercase;
+}
+.gallery img {
+  margin-bottom: 15px;
+  cursor: pointer;
+}
 @media (max-width: 767px) {
   .portrait {
     width: 50%;
     margin: 0 auto;
   }
+}
+
+/** Over-rides **/
+.modal-title {
+  display: inline-block;
 }
