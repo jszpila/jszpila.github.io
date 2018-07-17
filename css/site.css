@@ -2,6 +2,7 @@
   margin-bottom: 0;
   border: 0;
 }
+.navbar-collapse.collapse .nav > li,
 .navbar-collapse.collapsing li,
 .navbar-collapse.collapse.in li {
   display: inline-block;
