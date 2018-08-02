@@ -6,7 +6,6 @@
 .navbar-collapse.collapsing li,
 .navbar-collapse.collapse.in li {
   display: inline-block;
-  width: 19%;
   text-align: center;
 }
 a {
@@ -145,10 +144,25 @@ ul.list-unstyled.breakdown {
   margin-bottom: 15px;
   cursor: pointer;
 }
+.divider {
+  color: #DDD;
+  padding: 15px 5px;
+  line-height: 20px;
+}
+
+/** Media query overrides **/
 @media (max-width: 767px) {
   .portrait {
     width: 50%;
     margin: 0 auto;
+  }
+  .navbar-collapse.collapse {
+    text-align: center;
+  }
+  .navbar-collapse.collapse .nav > li,
+  .navbar-collapse.collapsing li,
+  .navbar-collapse.collapse.in li {
+    width: 15%;
   }
 }
 
