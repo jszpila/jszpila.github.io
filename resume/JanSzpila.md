@@ -17,7 +17,7 @@
 <h2><i class="fa fa-cogs"></i> Skills</h2>
 <dl>
 <dt><i class="fa fa-code"></i> Technologies</td>
-<dd>CSS <i class="text-muted">(SCSS, LESS, Stylus)</i>, HTML <i class="text-muted">(Pug)</i>, JavaScript <i class="text-muted">(ES5+, Flow, TypeScript)</i>, Node</dd>
+<dd>CSS <i class="text-muted">(SCSS, LESS, Stylus)</i>, HTML <i class="text-muted">(Pug, JSX)</i>, JavaScript <i class="text-muted">(ES5+, Flow, TypeScript)</i>, Node</dd>
 
 <dt><i class="fa fa-puzzle-piece"></i> Frameworks & Libraries</dt>
 <dd>Angular <i class="text-muted">(1 & 2)</i>, Bootstrap, Express, Foundation, jQuery, Knockout, Nuxt, React, Redux, Vue, Vuex</dd>
@@ -40,7 +40,7 @@
 <td class="span">9/17 - 7/18</td>
 </tr>
 <tr>
-<td colspan="3"><i class="text-muted">React, Redux, Node, Flow, SCSS, Mocha, Angular</i></td>
+<td colspan="3"><i class="text-muted">React, Redux, Node, JSX, Flow, SCSS, Mocha, Angular</i></td>
 </tr>
 <tr>
 <td colspan="3">
@@ -189,4 +189,4 @@ B.A., Interactive Media, 2005
 <li>User Interface Design, 2018</li>
 </ul>-->
 
-<table class="footer"><tr><td><i class="info text-muted"><i class="fa fa-tags"></i> #javascript #webdev #frontend #fullstack</i></td><td style="text-align: right;"><i class="info text-muted">v4.9.4 2018-8-02 10:549am CST</i></td></tr></table>
+<table class="footer"><tr><td><i class="info text-muted"><i class="fa fa-tags"></i> #javascript #webdev #frontend #fullstack</i></td><td style="text-align: right;"><i class="info text-muted">v4.9.5 2018-8-10 11:57am CST</i></td></tr></table>
