@@ -176,7 +176,7 @@
 </tbody>
 </table>
 
-*Further experience ('05 - '12) and references available upon request or at [linkedin.com/in/jszpila](https://www.linkedin.com/in/jszpila)*
+*Further experience ('05 - '14) and references available upon request or at [linkedin.com/in/jszpila](https://www.linkedin.com/in/jszpila)*
 
 <h2><i class="fa fa-graduation-cap"></i> Education</h2>
 __Columbia College Chicago__  
@@ -190,4 +190,4 @@ B.A., Interactive Media, 2005
 <li>User Interface Design, 2018</li>
 </ul>-->
 
-<table class="footer"><tr><td><i class="info text-muted"><i class="fa fa-tags"></i> #javascript #webdev #frontend #fullstack</i></td><td style="text-align: right;"><i class="info text-muted">v4.11.0 2018-9-15 12:05 CST</i></td></tr></table>
+<table class="footer"><tr><td><i class="info text-muted"><i class="fa fa-tags"></i> #javascript #webdev #frontend #fullstack</i></td><td style="text-align: right;"><i class="info text-muted">v4.11.1 2018-10-02 12:05 CST</i></td></tr></table>
