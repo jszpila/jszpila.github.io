@@ -1,6 +1,6 @@
-<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css" rel="stylesheet"><style>table {border: 0px; width: 100%; padding: 0px;}table tr {border: 0px; padding: 0px; margin: 0px;}table tr td {border: 0px; padding: 0px; background-color: #FFF;}table.experience {margin-bottom: 25px;}table.experience td.employer {width: 40%;}table.experience td.title {width: 40%; text-align: left;}table.experience td.span {text-align: right;}table.header h1, table.header h3 {margin: 0px; padding: 0px;}.lankz {margin: 5px 0 0 0; padding: 0; clear: both; list-style: none; list-style-type: none;}table.breakdown .title {width: 15%;}table.breakdown .content {width: 85%;}.lankz li {display: inline-block; margin: 0 10px 0 0;} .lankz li i {margin-right: 5px;} .text-muted {color: #666;} dd {} dt {font-style: normal !important; font-size: 16px!important;} dt i {margin-right: 3px;}.list-unstyled{list-style: none; margin-left: 0; padding-left: 0;} dd {display: inline-block; margin-left: 55px; padding-left: 100px;}</style>
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css" rel="stylesheet"><style>table {border: 0px; width: 100%; padding: 0px;}table tr {border: 0px; padding: 0px; margin: 0px;}table tr td {border: 0px; padding: 0px; background-color: #FFF;}table.experience {margin-bottom: 25px;}table.experience td.employer {width: 40%;}table.experience td.title {width: 40%; text-align: left;}table.experience td.span {text-align: right;}table.header h1, table.header h3 {margin: 0px; padding: 0px;}.lankz {margin: 5px 0 0 0; padding: 0; clear: both; list-style: none; list-style-type: none;}table.breakdown .title {width: 15%;}table.breakdown .content {width: 85%;}.lankz li {display: inline-block; margin: 0 10px 0 0;} .lankz li i {margin-right: 5px;} .text-muted {color: #666;} ul.list-unstyled{list-style: none; margin-left: 0; padding-left: 0;} dd {display: inline-block; margin-left: 55px; padding-left: 100px;}table.skills td {vertical-align: top; width: 33.33%;} table.skills th {border: 0px; text-align: left; padding: 0;} table.skills dd {margin: 0; padding: 0;} table.skills dt {font-weight: normal;}</style>
 <table class="header" style="margin-top: -60px; padding-top: 0px;">
-<tr><td><h1 style="margin-top: 0px; padding-top: 0px;">Jan "Yahn" Szpila</h1></td></tr>
+<tr><td rowspan="3"><img src="js.png" style="height: 100px; width: 100px"></td><td><h1 style="margin-top: 0px; padding-top: 0px;">Jan "Yahn" Szpila</h1></td></tr>
 <tr><td><h3>JavaScript Engineer, All Around Swell Guy™</h3></td></tr>
 <tr><td>
 <ul class="lankz"> 
@@ -14,13 +14,55 @@
 </tr>
 </table>
 
-<h2><i class="fa fa-cogs"></i> Skills</h2>
+<h2><i class="fa fa-code"></i> Skills</h2>
+<table class="skills">
+	<thead>
+		<tr>
+			<th><h4>Technologies</h4></th>
+			<th><h4>Frameworks & Libraries</h4></th>
+			<th><h4>Tools</h4></th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>
+				<dl>
+					<dt>CSS</dt>
+					<dd>LESS, SCSS, Stylus</dd>
+					<dt>HTML</dt>
+					<dd>Pug, JSX</dd>
+					<dt>JavaScript</dt>
+					<dd>ES5+, Flow, Node, TypeScript, Node</dd>
+				</dl>
+			</td>
+			<td>
+				<dl>
+					<dt>JavaScript</dt>
+					<dd>Angular, Express, React, Vue</dd>
+					<dt>HTML/CSS</dt>
+					<dd>Bootstrap, Foundation</dd>
+				</dl>
+			</td>
+			<td>
+				<dl>
+					<dt>General</dt>
+					<dd>Git, Photoshop, VS Code, ZSH</dd>
+					<dt>Testing</dt>
+					<dd>Jest, Karma, Mocha</dd>
+					<dt>Workflow</dt>
+					<dd>Grunt, Gulp, NPM, Webpack, Yarn</dd>
+				</dl>
+			</td>
+		</tr>
+	</tbody>
+</table>
+<!--
 <dl>
 <dt><i class="fa fa-code"></i> Technologies</td>
 <dd>CSS <i class="text-muted">(SCSS, LESS, Stylus)</i>, HTML <i class="text-muted">(Pug, JSX)</i>, JavaScript <i class="text-muted">(ES5+, Flow, TypeScript)</i>, Node</dd>
 
 <dt><i class="fa fa-puzzle-piece"></i> Frameworks & Libraries</dt>
-<dd>Angular <i class="text-muted">(1 & 2)</i>, Bootstrap, Express, Foundation, jQuery, Knockout, Nuxt, React, Redux, Vue, Vuex</dd>
+<dd>Angular, Bootstrap, Express, Foundation, jQuery, Knockout, Nuxt, React, Redux, Vue, Vuex</dd>
 
 <dt><i class="fa fa-wrench"></i> Tools</dt>
 <dd>
@@ -30,14 +72,36 @@
 <li><b>Workflow</b> Grunt, Gulp, NPM, Neutrino, Webpack, Yarn</li>
 </dd>
 </dl>
-
+-->
 <h2><i class="fa fa-history"></i> Experience</h2>
+<div style="text-align: right;"><i class="text-muted"><i class="fa fa-clock-o"></i> indicates a contract position</i></div>
 <table class="experience">
 <tbody>
 <tr>
+<td class="employer"><h4>Washington Post</h4></td>
+<td class="title">Sr. Full-Stack Engineer <em class="muted"><i class="fa fa-clock-o"></i></em></td>
+<td class="span">9/18 - Current</td>
+</tr>
+<tr>
+<td colspan="3"><i class="text-muted">React, Redux, Node, Express, JSX, Flow, SCSS, Jest, Angular</i>
+</td>
+</tr>
+<tr>
+<td colspan="3">
+<ul>
+<li>Implementing new features in their flagship SaaS content publishing platform; additionally, porting existing Angular-based features to React</li>
+<li>Developing RESTful APIs with Node.js/Express to interact with other services in the publishing ecosystem</li>
+<li>Mentoring junior engineers in web development best practices</li>
+</ul>
+</td>
+</tr>
+</table>
+
+<table class="experience">
+<tr>
 <td class="employer"><h4>Trōv</h4></td>
 <td class="title">Web Engineer</td>
-<td class="span">9/17 - 7/18</td>
+<td class="span">9/17 - 8/18</td>
 </tr>
 <tr>
 <td colspan="3"><i class="text-muted">React, Redux, Node, JSX, Flow, SCSS, Mocha, Angular</i></td>
@@ -51,28 +115,6 @@
 </td>
 </tbody>
 </table>
-
-<!--
-<table class="experience">
-<tbody>
-<tr>
-<td class="employer"><h4>The Main Branch</h4> </td>
-<td class="title">Full Stack Engineer <i class="text-muted">(part-time)</i></td>
-<td class="span">6/17 - Current</td>
-</tr>
-<tr>
-<td colspan="3"><i class="text-muted">Node, Express, MySQL, Angular 2, TypeScript</i></td>
-</tr>
-<tr>
-<td colspan="3">
-<ul>
-<li>Developing server- and client-side components for logistics training application</li>
-<li>Implementing boilerplate and tooling to accelerate the development of web application projects</li>
-</ul>
-</td>
-</tbody>
-</table>
--->
 
 <table class="experience">
 <tbody>
@@ -134,47 +176,6 @@
 </tbody>
 </table>
 
-<table class="experience">
-<tbody>
-<tr>
-<td class="employer"><h4>InContext Solutions</h4></td>
-<td class="title">Sr. Front-End Engineer</td>
-<td class="span">8/13 - 12/13</td>
-</tr>
-<tr>
-<td colspan="3"><i class="text-muted">jQuery, Kendo UI, Knockout</i></td>
-</tr>
-<tr>
-<td colspan="3">
-<ul>
-<li>Implemented UI for InContext's virtual environment marketing research app</li>
-<li>Collaborated with designers to ensure consistency and quality of user experience</li>
-<li>Worked with architects to re-factor the app's front-end to be service-oriented and platform-independent</li>
-</td>
-</tbody>
-</table>
-
-<!--<table class="experience">
-<tbody>
-<tr>
-<td class="employer"><h4>SteelSeries</h4> </td>
-<td class="title">Sr. Software Engineer, Front-End</td>
-<td class="span">5/12 - 8/13</td>
-</tr>
-<tr>
-<td colspan="3"><i class="text-muted">Electron, jQuery, Knockout, LESS, CoffeeScript</i></td>
-</tr>
-<tr>
-<td colspan="3">
-<ul>
-<li>Architected front-end of Electron-based, cross-platform peripheral management and configuration app</li>
-<li>Maintained UI layer of legacy Mono-based native app</li>
-<li>Coordinated with offshore resources to ensure quality of front-end code</li>
-</td>
-</tbody>
-</table>-->
-
-
 *Further experience ('05 - '12) and references available upon request or at [linkedin.com/in/jszpila](https://www.linkedin.com/in/jszpila)*
 
 <h2><i class="fa fa-graduation-cap"></i> Education</h2>
@@ -189,4 +190,4 @@ B.A., Interactive Media, 2005
 <li>User Interface Design, 2018</li>
 </ul>-->
 
-<table class="footer"><tr><td><i class="info text-muted"><i class="fa fa-tags"></i> #javascript #webdev #frontend #fullstack</i></td><td style="text-align: right;"><i class="info text-muted">v4.9.5 2018-8-10 11:57am CST</i></td></tr></table>
+<table class="footer"><tr><td><i class="info text-muted"><i class="fa fa-tags"></i> #javascript #webdev #frontend #fullstack</i></td><td style="text-align: right;"><i class="info text-muted">v4.11.0 2018-9-15 12:05 CST</i></td></tr></table>
