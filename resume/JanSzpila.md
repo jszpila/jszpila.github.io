@@ -1,6 +1,6 @@
-<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css" rel="stylesheet"><style>table {border: 0px; width: 100%; padding: 0px;}table tr {border: 0px; padding: 0px; margin: 0px;}table tr td {border: 0px; padding: 0px; background-color: #FFF;}table.experience {margin-bottom: 25px;}table.experience td.employer {width: 40%;}table.experience td.title {width: 40%; text-align: left;}table.experience td.span {text-align: right;}table.header h1, table.header h3 {margin: 0px; padding: 0px;}.lankz {margin: 5px 0 0 0; padding: 0; clear: both; list-style: none; list-style-type: none;}table.breakdown .title {width: 15%;}table.breakdown .content {width: 85%;}.lankz li {display: inline-block; margin: 0 10px 0 0;} .lankz li i {margin-right: 5px;} .text-muted {color: #666;} ul.list-unstyled{list-style: none; margin-left: 0; padding-left: 0;} dd {display: inline-block; margin-left: 55px; padding-left: 100px;}table.skills td {vertical-align: top; width: 33.33%;} table.skills th {border: 0px; text-align: left; padding: 0;} table.skills dd {margin: 0; padding: 0;} table.skills dt {font-weight: normal;}</style>
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"><style>table {border: 0px; width: 100%; padding: 0px;}table tr {border: 0px; padding: 0px; margin: 0px;}table tr td {border: 0px; padding: 0px; background-color: #FFF;}table.experience {margin-bottom: 25px;}table.experience td.employer {width: 40%;}table.experience td.title {width: 40%; text-align: left;}table.experience td.span {text-align: right;}table.header h1, table.header h3 {margin: 0px; padding: 0px;}.lankz {margin: 5px 0 0 0; padding: 0; clear: both; list-style: none; list-style-type: none;}table.breakdown .title {width: 15%;}table.breakdown .content {width: 85%;}.lankz li {display: inline-block; margin: 0 10px 0 0;} .lankz li i {margin-right: 5px;} .text-muted {color: #666;} ul.list-unstyled{list-style: none; margin-left: 0; padding-left: 0;} dd {display: inline-block; margin-left: 55px; padding-left: 100px;}table.skills td {vertical-align: top; width: 33.33%;} table.skills th {border: 0px; text-align: left; padding: 0;} table.skills dd {margin: 0; padding: 0;} table.skills dt {font-weight: normal;} dl dt {margin-top: 0px;} dl dt h4 {font-style: normal;}</style>
 <table class="header" style="margin-top: -60px; padding-top: 0px;">
-<tr><td rowspan="3"><img src="js.png" style="height: 100px; width: 100px"></td><td><h1 style="margin-top: 0px; padding-top: 0px;">Jan "Yahn" Szpila</h1></td></tr>
+<tr><td rowspan="3"><img src="js.png" style="height: 100px; width: 100px; padding-right:15px;"></td><td><h1 style="margin-top: 0px; padding-top: 0px;">Jan "Yahn" Szpila</h1></td></tr>
 <tr><td><h3>JavaScript Engineer, All Around Swell Guy™</h3></td></tr>
 <tr><td>
 <ul class="lankz"> 
@@ -14,73 +14,55 @@
 </tr>
 </table>
 
-<h2><i class="fa fa-code"></i> Skills</h2>
-<table class="skills">
-	<thead>
-		<tr>
-			<th><h4>Technologies</h4></th>
-			<th><h4>Frameworks & Libraries</h4></th>
-			<th><h4>Tools</h4></th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td>
-				<dl>
-					<dt>CSS</dt>
-					<dd>LESS, SCSS, Stylus</dd>
-					<dt>HTML</dt>
-					<dd>Pug, JSX</dd>
-					<dt>JavaScript</dt>
-					<dd>ES5+, Flow, Node, TypeScript, Node</dd>
-				</dl>
-			</td>
-			<td>
-				<dl>
-					<dt>JavaScript</dt>
-					<dd>Angular, Express, React, Vue</dd>
-					<dt>HTML/CSS</dt>
-					<dd>Bootstrap, Foundation</dd>
-				</dl>
-			</td>
-			<td>
-				<dl>
-					<dt>General</dt>
-					<dd>Git, Photoshop, VS Code, ZSH</dd>
-					<dt>Testing</dt>
-					<dd>Jest, Karma, Mocha</dd>
-					<dt>Workflow</dt>
-					<dd>Grunt, Gulp, NPM, Webpack, Yarn</dd>
-				</dl>
-			</td>
-		</tr>
-	</tbody>
+<h2><i class="fa fa-certificate"></i> Skills</h2>
+<table>
+	<tr><td colspan="2" style="text-align: left;"><h4>Technologies</h4></td></tr>
+	<tr><td colspan="2">CSS <em class="text-muted">(LESS, CSS, Stylus)</em>, HTML <em class="text-muted">(Pug, JSX)</em>, JavaScript <em class="text-muted">(ES5+, Flow, TypeScript)</em>, SQL <em class="text-muted">(MySQL)</em><br/><br/></td></tr>
+<tr>
+	<td style="width: 50%;"><h4>Frameworks & Libraries</h4></td>
+	<td><h4>Tools</h4></td>
+</tr>
+<tr>
+<td>
+<b>JavaScript</b> Express, jQuery, Node, React, Vue <br/>
+<b>CSS</b> Bootstrap, Foundation <br/>
+<b>Testing</b> Chai, Jest, Karma, Mocha</td>
+<td style="vertical-align: top">
+<b>General</b> Git, Postman, VSCode, ZSH<br/>
+<b>Workflow</b> Grunt, Gulp, NPM, Webpack, Yarn
+</td></tr>
 </table>
-<!--
-<dl>
-<dt><i class="fa fa-code"></i> Technologies</td>
-<dd>CSS <i class="text-muted">(SCSS, LESS, Stylus)</i>, HTML <i class="text-muted">(Pug, JSX)</i>, JavaScript <i class="text-muted">(ES5+, Flow, TypeScript)</i>, Node</dd>
 
-<dt><i class="fa fa-puzzle-piece"></i> Frameworks & Libraries</dt>
-<dd>Angular, Bootstrap, Express, Foundation, jQuery, Knockout, Nuxt, React, Redux, Vue, Vuex</dd>
-
-<dt><i class="fa fa-wrench"></i> Tools</dt>
-<dd>
-<ul class="list-unstyled">
-<li><b>General</b>  &nbsp;&nbsp;Atom, Electron, Git, Photoshop, VS Code, ZSH</li>
-<li><b>Testing</b> &nbsp;&nbsp;&nbsp;Chai, Jest, Karma, Mocha, Sinon, QUnit</li>
-<li><b>Workflow</b> Grunt, Gulp, NPM, Neutrino, Webpack, Yarn</li>
-</dd>
-</dl>
--->
 <h2><i class="fa fa-history"></i> Experience</h2>
-<div style="text-align: right;"><i class="text-muted"><i class="fa fa-clock-o"></i> indicates a contract position</i></div>
+<div style="text-align: right; margin-top: -35px; margin-bottom: 20px;"><i class="text-muted"><i class="fa fa-clock-o"></i> indicates a contract position</i></div>
+<table class="experience">
+<tbody>
+<tr>
+<td class="employer"><h4>BlueCrew</h4></td>
+<td class="title">Sr. Full-Stack Engineer</td>
+<td class="span">1/19 - Current</td>
+</tr>
+<tr>
+<td colspan="3"><i class="text-muted">React, Redux, Node, JSX, Flow, Express, Sequelize, Jest, Mocha</i>
+</td>
+</tr>
+<tr>
+<td colspan="3">
+<ul>
+<li>Developing green-field, RESTful job management API using Node and Express</li>
+<li>Implementing designs for job managment UI using React, leveraging Redux and Styled Components</li>
+<li>Mentoring junior developers</li>
+</ul>
+</td>
+</tr>
+</table>
+
 <table class="experience">
 <tbody>
 <tr>
 <td class="employer"><h4>Washington Post</h4></td>
 <td class="title">Sr. Full-Stack Engineer <em class="muted"><i class="fa fa-clock-o"></i></em></td>
-<td class="span">9/18 - Current</td>
+<td class="span">9/18 - 12/19</td>
 </tr>
 <tr>
 <td colspan="3"><i class="text-muted">React, Redux, Node, Express, JSX, Flow, SCSS, Jest, Angular</i>
@@ -89,9 +71,9 @@
 <tr>
 <td colspan="3">
 <ul>
-<li>Implementing new features in their flagship SaaS content publishing platform; additionally, porting existing Angular-based features to React</li>
-<li>Developing RESTful APIs with Node.js/Express to interact with other services in the publishing ecosystem</li>
-<li>Mentoring junior engineers in web development best practices</li>
+<li>Implemented new features in their flagship SaaS content publishing platform using React and Redux</li>
+<li>Developed RESTful APIs with Node.js/Express to interact with other services in the publishing ecosystem</li>
+<li>Mentored junior engineers in web development best practices</li>
 </ul>
 </td>
 </tr>
@@ -182,12 +164,4 @@
 __Columbia College Chicago__  
 B.A., Interactive Media, 2005
 
-<!--<ul class="list-unstyled">
-<li><b>Coursera</b></li>
-<li>Data Structures and Algorithms, 2018</li>
-<li>Full Stack Web Development, 2018</li> 
-<li>Interaction Design, 2018</li>
-<li>User Interface Design, 2018</li>
-</ul>-->
-
-<table class="footer"><tr><td><i class="info text-muted"><i class="fa fa-tags"></i> #javascript #webdev #frontend #fullstack</i></td><td style="text-align: right;"><i class="info text-muted">v4.11.1 2018-10-02 12:05 CST</i></td></tr></table>
+<table class="footer"><tr><td><i class="info text-muted"><i class="fa fa-tags"></i> #javascript #webdev #frontend #fullstack</i></td><td style="text-align: right;"><i class="info text-muted">v4.13.1 2019.03.15 20:33 CST</i></td></tr></table>
