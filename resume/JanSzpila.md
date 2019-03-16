@@ -14,13 +14,13 @@
 </tr>
 </table>
 
-<h2><i class="fa fa-certificate"></i> Skills</h2>
+<h2><i class="fa fa-cogs"></i> Skills</h2>
 <table>
-	<tr><td colspan="2" style="text-align: left;"><h4>Technologies</h4></td></tr>
+	<tr><td colspan="2" style="text-align: left;"><h4><i class="fa fa-code"></i> Technologies</h4></td></tr>
 	<tr><td colspan="2">CSS <em class="text-muted">(LESS, CSS, Stylus)</em>, HTML <em class="text-muted">(Pug, JSX)</em>, JavaScript <em class="text-muted">(ES5+, Flow, TypeScript)</em>, SQL <em class="text-muted">(MySQL)</em><br/><br/></td></tr>
 <tr>
-	<td style="width: 50%;"><h4>Frameworks & Libraries</h4></td>
-	<td><h4>Tools</h4></td>
+	<td style="width: 50%;"><h4><i class="fa fa-puzzle-piece"></i> Frameworks & Libraries</h4></td>
+	<td><h4><i class="fa fa-wrench"></i> Tools</h4></td>
 </tr>
 <tr>
 <td>
@@ -164,4 +164,4 @@
 __Columbia College Chicago__  
 B.A., Interactive Media, 2005
 
-<table class="footer"><tr><td><i class="info text-muted"><i class="fa fa-tags"></i> #javascript #webdev #frontend #fullstack</i></td><td style="text-align: right;"><i class="info text-muted">v4.13.1 2019.03.15 20:33 CST</i></td></tr></table>
+<table class="footer"><tr><td><i class="info text-muted"><i class="fa fa-tags"></i> #javascript #webdev #frontend #fullstack</i></td><td style="text-align: right;"><i class="info text-muted">v4.13.2 2019.03.15 20:54 CST</i></td></tr></table>
