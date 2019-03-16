@@ -97,6 +97,7 @@ hr {
   border-top: solid 1px #DDD;
   color: #DDD;
   text-align: center;
+  overflow: visible;
 }
 hr:after {
   content: "< / >";
