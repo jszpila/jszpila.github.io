@@ -12,6 +12,7 @@
           600,
           function() {
             window.location.hash = hash;
+            $('#Details-' + hash).collapse('show');
         });
       }
     });
@@ -32,7 +33,7 @@
         i++;
       }
 
-      return window.open(['mailto:', parts.join(''), '?subject=Hi%2C%20Jan!'].join(''));
+      return window.open(['mailto:', parts.join(''), '?subject=Hi%0C%20Jan!&body=I was just reading your resume and...'].join(''));
     });
   });
 
