@@ -5,14 +5,10 @@
   From: Chicago, IL, USA
 
 /* THANKS */
-  +5 Design Consultant: Bruce Lee
-  Contact: http://ghostsinspace.com
-
-  Background gradients generated using Harsh
-  https://github.com/bookcasey/harsh
+  Background texture: https://www.toptal.com/designers/subtlepatterns/
 
 /* SITE */
-  Last update: 2017/4/4
+  Last update: 2019/03/15
   Standards: HTML5, CSS3, JavaScript
   Components: jQuery, Bootstrap
-  Software: Atom
+  Software: VSCode
