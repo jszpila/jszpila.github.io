@@ -1,46 +1,48 @@
-<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"><style>table {border: 0px; width: 100%; padding: 0px;}table tr {border: 0px; padding: 0px; margin: 0px;}table tr td {border: 0px; padding: 0px; background-color: #FFF;}table.experience {margin-bottom: 25px;}table.experience td.employer {width: 40%;}table.experience td.title {width: 40%; text-align: left;}table.experience td.span {text-align: right;}table.header h1, table.header h3 {margin: 0px; padding: 0px;}.lankz {margin: 5px 0 0 0; padding: 0; clear: both; list-style: none; list-style-type: none;}table.breakdown .title {width: 15%;}table.breakdown .content {width: 85%;}.lankz li {display: inline-block; margin: 0 10px 0 0;} .lankz li i {margin-right: 5px;} .text-muted {color: #666;} ul.list-unstyled{list-style: none; margin-left: 0; padding-left: 0;} dd {display: inline-block; margin-left: 55px; padding-left: 100px;}table.skills td {vertical-align: top; width: 33.33%;} table.skills th {border: 0px; text-align: left; padding: 0;} table.skills dd {margin: 0; padding: 0;} table.skills dt {font-weight: normal;} dl dt {margin-top: 0px;} dl dt h4 {font-style: normal;}</style>
+
+<link href="http://libertarijan.us/css/all.min.css" rel="stylesheet">
+<link href="http://libertarijan.us/resume/css/resume.css" rel="stylesheet">
 <table class="header" style="margin-top: -60px; padding-top: 0px;">
-<tr><td rowspan="3"><img src="js.png" style="height: 100px; width: 100px; padding-right:15px;"></td><td><h1 style="margin-top: 0px; padding-top: 0px;">Jan "Yahn" Szpila</h1></td></tr>
+<tr><td rowspan="3"><img src="http://libertarijan.us/resume/js.png" style="height: 100px; width: 100px; padding-right:15px;"></td><td><h1 style="margin-top: 0px; padding-top: 0px;">Jan "Yahn" Szpila</h1></td></tr>
 <tr><td><h3>JavaScript Engineer, All Around Swell Guy™</h3></td></tr>
 <tr><td>
 <ul class="lankz"> 
 <li><i class="fa fa-link"></i> [jan.szpi.la](http://jan.szpi.la/)</li>
-<li><i class="fa fa-send-o"></i> [jan@szpi.la](mailto:jan@szpi.la?subject=Hi Jan!&body=I was just reading your resume and...)</li>
+<li><i class="far fa-paper-plane"></i> [jan@szpi.la](mailto:jan@szpi.la?subject=Hi Jan!&body=I was just reading your resume and...)</li>
 <li><i class="fa fa-phone"></i> [708.250.1866](callto:+17082501866)</li>
-<li><i class="fa fa-github-alt"></i> [jszpila](https://github.com/jszpila)</li>
-<li><i class="fa fa-stack-overflow"></i> [jszpila](http://stackoverflow.com/story/jszpila)</li>
-<li><i class="fa fa-linkedin"></i>&nbsp;[jszpila](https://www.linkedin.com/in/jszpila)</li>
+<li><i class="fab fa-github-alt"></i> [jszpila](https://github.com/jszpila)</li>
+<li><i class="fab fa-stack-overflow"></i> [jszpila](http://stackoverflow.com/story/jszpila)</li>
+<li><i class="fab fa-linkedin"></i>&nbsp;[jszpila](https://www.linkedin.com/in/jszpila)</li>
 </td>
 </tr>
 </table>
 
 <h2><i class="fa fa-cogs"></i> Skills</h2>
 <table>
-	<tr><td colspan="2" style="text-align: left;"><h4><i class="fa fa-code"></i> Technologies</h4></td></tr>
-	<tr><td colspan="2">CSS <em class="text-muted">(LESS, CSS, Stylus)</em>, HTML <em class="text-muted">(Pug, JSX)</em>, JavaScript <em class="text-muted">(ES5+, Flow, TypeScript)</em>, SQL <em class="text-muted">(MySQL)</em><br/><br/></td></tr>
+<tr><td colspan="2" style="text-align: left;"><h4><i class="fa fa-code"></i> Technologies</h4></td></tr>
+<tr><td colspan="2">CSS <em class="text-muted">(LESS, CSS, Stylus)</em>, HTML <em class="text-muted">(Pug, JSX)</em>, JavaScript <em class="text-muted">(ES5+, Flow, TypeScript)</em>, SQL <em class="text-muted">(MySQL)</em><br/><br/></td></tr>
 <tr>
-	<td style="width: 50%;"><h4><i class="fa fa-puzzle-piece"></i> Frameworks & Libraries</h4></td>
-	<td><h4><i class="fa fa-wrench"></i> Tools</h4></td>
+<td style="width: 50%;"><h4><i class="fa fa-puzzle-piece"></i> Frameworks & Libraries</h4></td>
+<td><h4><i class="fas fa-tools"></i> Tools</h4></td>
 </tr>
 <tr>
 <td>
 <b>JavaScript</b> Express, jQuery, Node, React, Vue <br/>
 <b>CSS</b> Bootstrap, Foundation <br/>
 <b>Testing</b> Chai, Jest, Karma, Mocha</td>
-<td style="vertical-align: top">
+<td style="vertical-align: top;">
 <b>General</b> Git, Postman, VSCode, ZSH<br/>
 <b>Workflow</b> Grunt, Gulp, NPM, Webpack, Yarn
 </td></tr>
 </table>
 
 <h2><i class="fa fa-history"></i> Experience</h2>
-<div style="text-align: right; margin-top: -35px; margin-bottom: 20px;"><i class="text-muted"><i class="fa fa-clock-o"></i> indicates a contract position</i></div>
+<div style="text-align: right; margin-top: -35px; margin-bottom: 20px;"><i class="text-muted"><i class="far fa-clock"></i> indicates a contract position</i></div>
 <table class="experience">
 <tbody>
 <tr>
 <td class="employer"><h4>BlueCrew</h4></td>
-<td class="title">Sr. Full-Stack Engineer</td>
-<td class="span">1/19 - Current</td>
+<td class="title">Full-Stack Engineer II</td>
+<td class="span">1/19 - 9/19</td>
 </tr>
 <tr>
 <td colspan="3"><i class="text-muted">React, Redux, Node, JSX, Flow, Express, Sequelize, Jest, Mocha</i>
@@ -49,9 +51,10 @@
 <tr>
 <td colspan="3">
 <ul>
-<li>Developing green-field, RESTful job management API using Node and Express</li>
-<li>Implementing designs for job managment UI using React, leveraging Redux and Styled Components</li>
-<li>Mentoring junior developers</li>
+<li>Implemented designs for employee management UI using React, Redux, and Styled Components</li>
+<li>Developed green-field, RESTful API using Node and Express</li>
+<li>Mentored junior developers and working with the team to develop best practices  and coding standards</li>
+<li>Contributed components to company-wide UI library, used across multiple projects</li>
 </ul>
 </td>
 </tr>
@@ -158,10 +161,14 @@
 </tbody>
 </table>
 
-*Further experience ('05 - '14) and references available upon request or at [linkedin.com/in/jszpila](https://www.linkedin.com/in/jszpila)*
+<i class="info text-muted"><i class="fa fa-info-circle"></i> Further experience ('05 - '14) and references available upon request or at [linkedin.com/in/jszpila](https://www.linkedin.com/in/jszpila)</i>
 
 <h2><i class="fa fa-graduation-cap"></i> Education</h2>
 __Columbia College Chicago__  
 B.A., Interactive Media, 2005
 
-<table class="footer"><tr><td><i class="info text-muted"><i class="fa fa-tags"></i> #javascript #webdev #frontend #fullstack</i></td><td style="text-align: right;"><i class="info text-muted">v4.13.2 2019.03.15 20:54 CST</i></td></tr></table>
+<table class="footer">
+<tr class="text-muted">
+<td style="width: 33%;"><i class="info"><i class="fa fa-tags"></i> #webdev #frontend #fullstack</i></td>
+<td style="text-align: center; width: 33%;"><i class="fab fa-html5"></i>  <i class="fab fa-css3-alt"></i>  <i class="fab fa-js"></i></td>
+<td style="text-align: right; width: 33%;"><i class="info text-muted">v4.14.03 2019.08.25 14:06 CST</i></td></tr></table>

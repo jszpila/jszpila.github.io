@@ -114,10 +114,6 @@ hr:after {
 ul.list-unstyled.breakdown {
   padding-left: 15px;
 }
-.gallery .main h2 {
-  border-top: solid 1px #DDD;
-  padding-top: 20px;
-}
 .gallery .main section:first-child h2 {
   border-top: none;
   padding-top: 20px;
