@@ -23,14 +23,14 @@
 <h2><i class="fa fa-cogs"></i> Skills</h2>
 <table>
 <tr><td colspan="2" style="text-align: left;"><h4><i class="fa fa-code"></i> Technologies</h4></td></tr>
-<tr><td colspan="2">CSS <em class="text-muted">(LESS, SCSS, Stylus)</em>, HTML <em class="text-muted">(Pug, JSX)</em>, JavaScript <em class="text-muted">(ES5+, Flow, TypeScript)</em>, SQL <em class="text-muted">(MySQL)</em><br/><br/></td></tr>
+<tr><td colspan="2">CSS <em class="text-muted">(LESS, SCSS, Stylus)</em>, HTML <em class="text-muted">(Pug, JSX)</em>, JavaScript <em class="text-muted">(ES5+, Flow, TypeScript)</em>, Node, SQL <em class="text-muted">(MySQL)</em><br/><br/></td></tr>
 <tr>
 <td style="width: 60%;"><h4><i class="fa fa-puzzle-piece"></i> Frameworks & Libraries</h4></td>
 <td><h4><i class="fas fa-tools"></i> Tools</h4></td>
 </tr>
 <tr>
 <td>
-<b>JavaScript</b> Angular, Express, Node, React<br/>
+<b>JavaScript</b> Angular, Express, jQuery, React<br/>
 <b>CSS</b> Bootstrap, Foundation, Material UI, Styled Components <br/>
 <b>Testing</b> Jest, Karma, Mocha</td>
 <td style="vertical-align: top;">
@@ -222,4 +222,4 @@ B.A., Interactive Media, 2005
 <tr class="text-muted">
 <td><i class="info"><i class="fa fa-tags"></i> #webdev #frontend #fullstack</i></td>
 <td style="text-align: center;"><i class="fab fa-html5"></i>  <i class="fab fa-css3-alt"></i>  <i class="fab fa-js"></i>  <i class="fab fa-react"></i></td>
-<td style="text-align: right;"><i class="info text-muted">v4.15.12 15.06.2021 14:59 CST</i></td></tr></table>
+<td style="text-align: right;"><i class="info text-muted">v4.15.13 15.06.2021 15:08 CST</i></td></tr></table>
