@@ -1,0 +1,102 @@
+body {
+	font-size: 90%;
+	margin-top: 5rem;
+}
+table {
+	border: 0px;
+	width: 100%;
+	padding: 0px;
+}
+table tr {
+	border: 0px;
+	padding: 0px;
+	margin: 0px;
+}
+table tr td {
+	border: 0px;
+	padding: 0px;
+	background-color: #fff;
+}
+table.experience {
+	margin-bottom: 25px;
+}
+table.experience thead {
+	border: 0;
+}
+table.experience thead th {
+	font-weight: normal;
+	border: 0;
+}
+table.experience th.employer {
+	width: 33%;
+	text-align: left;
+	margin-left: 0;
+	padding-left: 0;
+}
+table.experience th.title {
+	width: 40%;
+	text-align: center;
+}
+table.experience th.span {
+	text-align: right;
+}
+table.header h1,
+table.header h3 {
+	margin: 0px;
+	padding: 0px;
+}
+.lankz {
+	margin: 5px 0 0 0;
+	padding: 0;
+	clear: both;
+	list-style: none;
+	list-style-type: none;
+}
+table.breakdown .title {
+	width: 15%;
+}
+table.breakdown .content {
+	width: 85%;
+}
+.lankz li {
+	display: inline-block;
+	margin: 0 10px 0 0;
+}
+.lankz li i {
+	margin-right: 5px;
+}
+.text-muted {
+	color: #666;
+}
+ul.list-unstyled {
+	list-style: none;
+	margin-left: 0;
+	padding-left: 0;
+}
+dd {
+	display: inline-block;
+	margin-left: 55px;
+	padding-left: 100px;
+}
+table.skills td {
+	vertical-align: top;
+	width: 33.33%;
+}
+table.skills th {
+	border: 0px;
+	text-align: left;
+	padding: 0;
+}
+table.skills dd {
+	margin: 0;
+	padding: 0;
+}
+table.skills dt {
+	font-weight: normal;
+}
+dl dt {
+	margin-top: 0px;
+}
+dl dt h4 {
+	font-style: normal;
+}
