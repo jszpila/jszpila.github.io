@@ -2,13 +2,9 @@
   HMFIC: Jan Szpila
   Contact: jan [at] szpi.la
   Github: jszpila
-  From: Whiting, IN, USA
-
-/* THANKS */
-  Background texture: https://www.toptal.com/designers/subtlepatterns/
+  From: NW Indiana, USA
 
 /* SITE */
-  Last update: 2019/08/26
-  Standards: HTML5, CSS3, JavaScript
-  Components: jQuery, Bootstrap
+  Last update: 2021/10/31
+  Standards: HTML5, CSS3, Markdown
   Software: VSCode
