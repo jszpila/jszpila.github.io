@@ -27,21 +27,18 @@ body {
   max-width: 700px;
 }
 
-.headshot {
-  width: 250px;
-  height: 250px;
-}
-
 .title {
   font-size: 2rem;
   font-weight: 700;
   line-height: 2.25rem;
+  margin-bottom: .75rem;
 }
 
 .subtitle {
   font-size: 1.75rem;
   font-weight: 400;
   line-height: 2rem;
+  margin: .75rem 0 2rem 0;
 }
 
 .links-list {
