@@ -40,6 +40,7 @@ body {
 .headshot-container:hover .headshot--default {
   display: none;
 }
+
 .headshot-container:hover .headshot--hover {
   display: block;
 }
@@ -91,7 +92,7 @@ body {
 .divider {
   border: 0;
   border-top: solid 1px#444746;
-  margin: 1.5rem auto 1 auto;
+  margin: 1.5rem auto .5rem auto;
   text-align: center;
   overflow: visible;
   padding: 0;
@@ -101,7 +102,7 @@ body {
   content: "< / >";
   display: inline-block;
   position: relative;
-  top: -0.85em;
+  top: -13px;
   font-size: 1em;
   padding: 0 0.25em;
   color:#444746;
