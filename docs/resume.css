@@ -19,6 +19,7 @@ table tr td {
 }
 table.experience {
 	margin-bottom: 25px;
+	/* border-bottom: solid 1px #0F0; */
 }
 table.experience thead {
 	border: 0;
@@ -27,17 +28,20 @@ table.experience thead th {
 	font-weight: normal;
 	border: 0;
 }
-table.experience th.employer {
+table.experience th.employer,
+table.experience--condensed td.employer{
 	width: 33%;
 	text-align: left;
 	margin-left: 0;
 	padding-left: 0;
 }
-table.experience th.title {
+table.experience th.title,
+table.experience--condensed td.title{
 	width: 40%;
 	text-align: center;
 }
-table.experience th.span {
+table.experience th.span,
+table.experience--condensed td.span{
 	text-align: right;
 }
 table.header h1,
@@ -99,4 +103,14 @@ dl dt {
 }
 dl dt h4 {
 	font-style: normal;
+}
+.skills th,
+.skills td {
+  width: 33%;
+}
+.skills th {
+	font-weight: bold;
+}
+table.experience--condensed {
+	padding-bottom: 1rem;
 }
