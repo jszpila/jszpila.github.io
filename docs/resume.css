@@ -3,22 +3,22 @@ body {
 	margin-top: 5rem;
 }
 table {
-	border: 0px;
+	border: 0;
 	width: 100%;
-	padding: 0px;
+	padding: 0;
 }
 table tr {
-	border: 0px;
-	padding: 0px;
-	margin: 0px;
+	border: 0;
+	padding: 0;
+	margin: 0;
 }
 table tr td {
-	border: 0px;
-	padding: 0px;
+	border: 0;
+	padding: 0;
 	background-color: #fff;
 }
 table.experience {
-	margin-bottom: 25px;
+	margin-bottom: .75rem;
 	/* border-bottom: solid 1px #0F0; */
 }
 table.experience thead {
@@ -44,10 +44,30 @@ table.experience th.span,
 table.experience--condensed td.span{
 	text-align: right;
 }
+table.header {
+	margin-top: -60px; 
+	padding-top: 0;
+}
+table.header td {
+	vertical-align: top;
+}
+table.header .image-container {
+	width: 20%;
+	border: solid 1px #0F0;
+}
+table.header .image-container img {
+	width: 100%;
+}
+table.header .personal-info {
+	padding-left: 1.5rem;
+}
 table.header h1,
 table.header h3 {
-	margin: 0px;
-	padding: 0px;
+	margin: 0;
+	padding: 0;
+}
+table.header h1 {
+	line-height: 2rem;
 }
 .lankz {
 	margin: 5px 0 0 0;
@@ -65,6 +85,7 @@ table.breakdown .content {
 .lankz li {
 	display: inline-block;
 	margin: 0 10px 0 0;
+	line-height: .75rem;
 }
 .lankz li i {
 	margin-right: 5px;
@@ -87,7 +108,7 @@ table.skills td {
 	width: 33.33%;
 }
 table.skills th {
-	border: 0px;
+	border: 0;
 	text-align: left;
 	padding: 0;
 }
@@ -99,7 +120,7 @@ table.skills dt {
 	font-weight: normal;
 }
 dl dt {
-	margin-top: 0px;
+	margin-top: 0;
 }
 dl dt h4 {
 	font-style: normal;
